@@ -21,7 +21,7 @@ def display_word(word, guessed_letters):
 def play_game():
     word = choose_word()
     guessed_letters = set()
-    attempts = 7
+    attempts = 8
 
     while attempts > 0:
         print(display_word(word, guessed_letters))
